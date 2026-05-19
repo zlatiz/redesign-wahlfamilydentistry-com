@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Wahl Family Dentistry | Boutique Dental Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#763300",
+                        "on-surface-variant": "#45464d",
+                        "tertiary-container": "#331200",
+                        "on-tertiary-container": "#cf6721",
+                        "primary": "#000000",
+                        "on-secondary": "#ffffff",
+                        "surface": "#f7f9fb",
+                        "outline-variant": "#c6c6cd",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-on-surface": "#eff1f3",
+                        "on-error": "#ffffff",
+                        "primary-fixed-dim": "#bec6e0",
+                        "surface-container-low": "#f2f4f6",
+                        "on-primary-fixed": "#131b2e",
+                        "inverse-surface": "#2d3133",
+                        "primary-container": "#131b2e",
+                        "surface-container": "#eceef0",
+                        "on-secondary-fixed": "#00201d",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#e0e3e5",
+                        "secondary-fixed-dim": "#6bd8cb",
+                        "inverse-primary": "#bec6e0",
+                        "on-secondary-container": "#006f66",
+                        "on-surface": "#191c1e",
+                        "background": "#f7f9fb",
+                        "surface-bright": "#f7f9fb",
+                        "secondary": "#006a61",
+                        "on-secondary-fixed-variant": "#005049",
+                        "surface-container-highest": "#e0e3e5",
+                        "tertiary-fixed-dim": "#ffb68e",
+                        "on-primary-container": "#7c839b",
+                        "on-background": "#191c1e",
+                        "on-tertiary-fixed": "#331200",
+                        "primary-fixed": "#dae2fd",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#d8dadc",
+                        "secondary-container": "#86f2e4",
+                        "tertiary-fixed": "#ffdbca",
+                        "tertiary": "#000000",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#565e74",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "error-container": "#ffdad6",
+                        "surface-container-high": "#e6e8ea",
+                        "on-tertiary": "#ffffff",
+                        "outline": "#76777d",
+                        "secondary-fixed": "#89f5e7"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "20px",
+                        "unit": "8px",
+                        "section-gap-mobile": "64px",
+                        "gutter": "24px",
+                        "section-gap-desktop": "128px",
+                        "margin-desktop": "80px",
+                        "container-max": "1440px"
+                    },
+                    "fontFamily": {
+                        "caption": ["Inter"],
+                        "display-lg": ["Playfair Display"],
+                        "body-md": ["Inter"],
+                        "label-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "display-lg": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "56px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="full-width sticky top-0 z-50 bg-surface/90 dark:bg-surface-container/90 backdrop-blur-[20px] border-b border-outline-variant/20 shadow-[0px_10px_30px_rgba(19,27,46,0.04)] ease-in-out transition-all duration-200">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<a class="font-bold border-b-2 border-current font-headline-md text-headline-md-mobile md:text-headline-md tracking-tight text-primary dark:text-primary-fixed" href="/">
+                Wahl Family Dentistry
+            </a>
+<div class="hidden md:flex items-center gap-6 font-label-md text-label-md">
+<a class="font-bold border-b-2 border-current text-primary dark:text-primary-fixed font-bold border-b-2 border-secondary pb-1" href="/">Home</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200" href="/request-an-appointment.html">Same-Day Appointments</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200" href="/about-us.html">About Us</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200" href="/wahl-family-dentistry-history.html">History</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-200" href="/meet-the-doctors.html">Meet the Doctors</a>
+</div>
+<a class="hidden md:inline-flex items-center justify-center bg-secondary text-on-secondary px-6 py-3 rounded hover:bg-on-secondary-fixed-variant transition-colors duration-200 font-label-md text-label-md" href="/request-an-appointment.html">
+                Book Appointment
+            </a>
+<!-- Mobile Menu Button -->
+<button aria-label="Menu" class="md:hidden text-primary">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative w-full h-[819px] min-h-[600px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0 bg-surface-container-high">
+<img alt="Hero Background" class="w-full h-full object-cover opacity-60" data-alt="A bright, modern dental clinic waiting area bathed in soft natural light from large floor-to-ceiling windows. The aesthetic is minimalist and high-end, featuring sleek white surfaces, natural wood accents, and a calming teal and navy color palette. High-key lighting creates a serene, welcoming atmosphere devoid of clinical anxiety. Professional interior photography, wide angle, photorealistic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUgTTFsU0JYw_U5cmQQ-6TLb18owkv3y1uP9ckuV3unMDU-6PlR0fllEbO7ydt66moyvnEs4uF7gIwIVOWRvhIsDo7YEj-lUzuUYFRc-nGywM5FyFzhfJX_1r_Ptg4AjVnJzNV2DvmkmzhaMLT_KdThlGvOczDno3jDei74R-XvMQ3QBqATcDRPRbdgDPsHS6DdFUItizI7CSLs4Mv3yWUvNYT4BzSvKuR4znQtjQ8By9R4a_eULfU87is45gbA4a-xTXXmp9iDld-"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface/90 to-surface/20"></div>
+</div>
+<div class="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop fade-in">
+<div class="max-w-2xl">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6">Boutique Dental Care Reimagined</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-xl">Experience a new standard of dental wellness. We combine clinical precision with a calming, patient-first environment to ensure every visit is exceptional.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="inline-flex items-center justify-center bg-secondary text-on-secondary px-8 py-4 rounded font-label-md text-label-md hover:bg-on-secondary-fixed-variant transition-colors duration-200" href="/request-an-appointment.html">
+                        Schedule a Visit
+                    </a>
+<a class="inline-flex items-center justify-center bg-surface-container border border-outline-variant text-primary px-8 py-4 rounded font-label-md text-label-md hover:bg-surface-variant transition-colors duration-200" href="/about-us.html">
+                        Our Philosophy
+                    </a>
+</div>
+</div>
+</div>
+</header>
+<!-- Excellence Section (History) -->
+<section class="w-full py-section-gap-mobile md:py-section-gap-desktop bg-surface-bright">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="fade-in">
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-6">Excellence in Every Smile</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">For generations, Wahl Family Dentistry has been a cornerstone of comprehensive oral health in our community. Our legacy is built on a foundation of trust, meticulous care, and a deep-rooted commitment to our patients' well-being.</p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8">We believe that superior dental care should feel less like a clinical procedure and more like a concierge wellness experience. Our family-run practice merges traditional values with state-of-the-art technology.</p>
+<a class="inline-flex items-center text-secondary hover:text-on-secondary-container font-label-md text-label-md transition-colors duration-200" href="/wahl-family-dentistry-history.html">
+                        Read Our History <span class="material-symbols-outlined ml-2">arrow_forward</span>
+</a>
+</div>
+<div class="relative h-[500px] rounded-xl overflow-hidden fade-in">
+<img alt="Our Practice" class="w-full h-full object-cover" data-alt="A close-up shot of a sophisticated dental practice environment, focusing on modern, clean dental tools resting on a pristine white tray. In the slightly blurred background, a friendly, professional dentist in a crisp white coat is smiling. The lighting is bright, soft, and inviting, emphasizing a sterile yet comforting atmosphere. A modern, minimalist aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzm0w5zeqKzqMzNJOWV134zHSdCL9dWcar083hj6q_uqtwO79gIT46WPn_Dcl1jLhP4-FZ4ZuWHNO5TzVhopBhZuNqTzmqTbEK5lzIpthUeUz2R-NdEdwdlqkjGisiUkhPcnS8q54VfphtzOwz0OhUjUBstexVVg1PCI2V1HJQMtWj-I5IWaIfVAMVENtkv1uU-Bu9hlcICRvlikskCWb6I8-tV-xzKD157dYLb-J5b8kEj2qYPRNhI_PLB_KKN6nP5KhudZo91Cx5"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Same-Day Care Section -->
+<section class="w-full py-section-gap-mobile md:py-section-gap-desktop bg-surface-container-low border-y border-outline-variant/20">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center fade-in">
+<span class="inline-block px-4 py-1 bg-secondary/10 text-secondary font-label-md text-label-md rounded-full mb-6">Priority Care</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-6">Immediate Attention When You Need It</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl mx-auto mb-10">Dental emergencies don't wait for convenient times. That's why we reserve time in our daily schedule to provide prompt, same-day care for urgent situations, ensuring you never have to endure discomfort longer than necessary.</p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/30 text-left hover:shadow-[0px_10px_30px_rgba(19,27,46,0.04)] transition-shadow duration-300">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-weight="fill">schedule</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Flexible Scheduling</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">We prioritize your urgent needs with dedicated time slots specifically for same-day appointments.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/30 text-left hover:shadow-[0px_10px_30px_rgba(19,27,46,0.04)] transition-shadow duration-300">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-weight="fill">medical_services</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Comprehensive Treatment</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">From sudden toothaches to chipped teeth, our team is equipped to handle a wide range of immediate dental concerns.</p>
+</div>
+<div class="bg-surface-container-lowest p-8 rounded-xl border border-outline-variant/30 text-left hover:shadow-[0px_10px_30px_rgba(19,27,46,0.04)] transition-shadow duration-300">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4" data-weight="fill">sentiment_calm</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Relief &amp; Comfort</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Our primary goal during an emergency visit is to alleviate pain and stabilize your oral health immediately.</p>
+</div>
+</div>
+<a class="inline-flex items-center justify-center bg-primary text-on-primary px-8 py-4 rounded font-label-md text-label-md hover:bg-surface-tint transition-colors duration-200" href="/request-an-appointment.html">
+                Request Same-Day Appointment
+            </a>
+</div>
+</section>
+<!-- Footer -->
+<footer class="full-width bg-surface-container-low dark:bg-surface-container-lowest border-t border-outline-variant/30 ease-in-out transition-opacity duration-200">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter w-full px-margin-mobile md:px-margin-desktop py-section-gap-mobile md:py-section-gap-desktop max-w-container-max mx-auto">
+<div class="md:col-span-1">
+<a class="font-headline-md text-headline-md text-primary dark:text-primary-fixed mb-4 block" href="/">
+                    Wahl Family Dentistry
+                </a>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">© 2024 Wahl Family Dentistry. Excellence in Boutique Dental Care.</p>
+</div>
+<div class="font-body-md text-body-md">
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Contact Us</a></li>
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Emergency Services</a></li>
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Patient Portal</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+        });
+    </script>
+</body></html>

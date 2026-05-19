@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dr. Yaella Aronhime | Wahl Family Dentistry</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts: Playfair Display & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#763300",
+                        "on-surface-variant": "#45464d",
+                        "tertiary-container": "#331200",
+                        "on-tertiary-container": "#cf6721",
+                        "primary": "#000000",
+                        "on-secondary": "#ffffff",
+                        "surface": "#f7f9fb",
+                        "outline-variant": "#c6c6cd",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-on-surface": "#eff1f3",
+                        "on-error": "#ffffff",
+                        "primary-fixed-dim": "#bec6e0",
+                        "surface-container-low": "#f2f4f6",
+                        "on-primary-fixed": "#131b2e",
+                        "inverse-surface": "#2d3133",
+                        "primary-container": "#131b2e",
+                        "surface-container": "#eceef0",
+                        "on-secondary-fixed": "#00201d",
+                        "on-error-container": "#93000a",
+                        "surface-variant": "#e0e3e5",
+                        "secondary-fixed-dim": "#6bd8cb",
+                        "inverse-primary": "#bec6e0",
+                        "on-secondary-container": "#006f66",
+                        "on-surface": "#191c1e",
+                        "background": "#f7f9fb",
+                        "surface-bright": "#f7f9fb",
+                        "secondary": "#006a61",
+                        "on-secondary-fixed-variant": "#005049",
+                        "surface-container-highest": "#e0e3e5",
+                        "tertiary-fixed-dim": "#ffb68e",
+                        "on-primary-container": "#7c839b",
+                        "on-background": "#191c1e",
+                        "on-tertiary-fixed": "#331200",
+                        "primary-fixed": "#dae2fd",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#d8dadc",
+                        "secondary-container": "#86f2e4",
+                        "tertiary-fixed": "#ffdbca",
+                        "tertiary": "#000000",
+                        "error": "#ba1a1a",
+                        "surface-tint": "#565e74",
+                        "on-primary-fixed-variant": "#3f465c",
+                        "error-container": "#ffdad6",
+                        "surface-container-high": "#e6e8ea",
+                        "on-tertiary": "#ffffff",
+                        "outline": "#76777d",
+                        "secondary-fixed": "#89f5e7"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "20px",
+                        "unit": "8px",
+                        "section-gap-mobile": "64px",
+                        "gutter": "24px",
+                        "section-gap-desktop": "128px",
+                        "margin-desktop": "80px",
+                        "container-max": "1440px"
+                    },
+                    "fontFamily": {
+                        "caption": ["Inter"],
+                        "display-lg": ["Playfair Display"],
+                        "body-md": ["Inter"],
+                        "label-md": ["Inter"],
+                        "body-lg": ["Inter"],
+                        "headline-lg": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "display-lg": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-lg": ["48px", { "lineHeight": "56px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.filled {
+            font-variation-settings: 'FILL' 1;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface antialiased overflow-x-hidden">
+<header class="relative w-full h-[819px] min-h-[600px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0 bg-surface-container-high">
+<img alt="Hero Background" class="w-full h-full object-cover opacity-60" data-alt="A bright, modern dental clinic waiting area bathed in soft natural light from large floor-to-ceiling windows. The aesthetic is minimalist and high-end, featuring sleek white surfaces, natural wood accents, and a calming teal and navy color palette. High-key lighting creates a serene, welcoming atmosphere devoid of clinical anxiety. Professional interior photography, wide angle, photorealistic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUgTTFsU0JYw_U5cmQQ-6TLb18owkv3y1uP9ckuV3unMDU-6PlR0fllEbO7ydt66moyvnEs4uF7gIwIVOWRvhIsDo7YEj-lUzuUYFRc-nGywM5FyFzhfJX_1r_Ptg4AjVnJzNV2DvmkmzhaMLT_KdThlGvOczDno3jDei74R-XvMQ3QBqATcDRPRbdgDPsHS6DdFUItizI7CSLs4Mv3yWUvNYT4BzSvKuR4znQtjQ8By9R4a_eULfU87is45gbA4a-xTXXmp9iDld-"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface/90 to-surface/20"></div>
+</div>
+<div class="relative z-10 w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop fade-in">
+<div class="max-w-2xl">
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-6">Boutique Dental Care Reimagined</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-xl">Experience a new standard of dental wellness. We combine clinical precision with a calming, patient-first environment to ensure every visit is exceptional.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="inline-flex items-center justify-center bg-secondary text-on-secondary px-8 py-4 rounded font-label-md text-label-md hover:bg-on-secondary-fixed-variant transition-colors duration-200" href="/request-an-appointment.html">
+                        Schedule a Visit
+                    </a>
+<a class="inline-flex items-center justify-center bg-surface-container border border-outline-variant text-primary px-8 py-4 rounded font-label-md text-label-md hover:bg-surface-variant transition-colors duration-200" href="/about-us.html">
+                        Our Philosophy
+                    </a>
+</div>
+</div>
+</div>
+</header>
+<!-- Navigation -->
+
+<!-- Main Content Canvas -->
+<main class="w-full">
+<!-- Hero Section -->
+<section class="w-full min-h-[90vh] flex flex-col md:flex-row items-center justify-between px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-16 md:py-0 gap-gutter">
+<div class="w-full md:w-1/2 flex flex-col space-y-8 pr-0 md:pr-12">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Meet the Doctor</span>
+<h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary text-balance">
+                    Dr. Yaella Aronhime: The Art of Precision Dentistry
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+                    With a philosophy rooted in "functional art," Dr. Yaella views every procedure as an opportunity to blend clinical precision with aesthetic perfection. Her approach ensures that a beautiful smile is also a strong, lasting one.
+                </p>
+<div class="pt-4">
+<button class="bg-surface-container-lowest border border-outline text-primary px-8 py-4 rounded-DEFAULT font-label-md text-label-md hover:bg-surface-container-low transition-colors duration-200 inline-flex items-center gap-2 group">
+                        Learn About Her Approach
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative h-[60vh] md:h-[80vh] rounded-xl overflow-hidden shadow-[0_10px_30px_rgba(19,27,46,0.08)]">
+<img alt="Portrait of Dr. Yaella Aronhime" class="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida/ADBb0ug6TEUbkFXB1G7XjeOD61TpOwEQMOdX_ZNWIg8mjXlzKuK6CKyvOtdH91-92yeNqIyrtRpMrF6SK5cq32xa51UfvdzKvYXHyrJsxN4TWvn1bGxiNDLbhaiXwTAhAnFS4OfesBzq9zLPfFyiDfqq3MyTGliJlFd3hGCrcLz9dR8t_VzvWm0SRhe8A4c9-esL_8e-BJCvUDkrTh8gcT_14J02eG85yPaiPVnAiiVng4q2rffNrjpL0x9frCU-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+</div>
+</section>
+<!-- Educational Background -->
+<section class="w-full bg-surface-container-lowest py-section-gap-mobile md:py-section-gap-desktop">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-16 md:mb-24">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">A Foundation of Excellence</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4 max-w-2xl mx-auto">Rigorous academic training paired with an enduring commitment to continuous learning.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-32">
+<div class="flex flex-col items-center text-center p-8 border border-outline-variant/30 rounded-xl hover:shadow-[0_10px_30px_rgba(19,27,46,0.04)] transition-shadow duration-300 bg-background">
+<div class="w-16 h-16 bg-secondary-fixed/20 rounded-full flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">University of Maryland</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Undergraduate Studies</p>
+<p class="font-caption text-caption text-on-surface-variant mt-4 leading-relaxed">
+                            Laying the groundwork in biological sciences, developing a keen understanding of human health that would serve as the bedrock for her specialized dental education.
+                        </p>
+</div>
+<div class="flex flex-col items-center text-center p-8 border border-outline-variant/30 rounded-xl hover:shadow-[0_10px_30px_rgba(19,27,46,0.04)] transition-shadow duration-300 bg-background">
+<div class="w-16 h-16 bg-secondary-fixed/20 rounded-full flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined text-3xl">local_hospital</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-3">University of Pittsburgh</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">School of Dental Medicine</p>
+<p class="font-caption text-caption text-on-surface-variant mt-4 leading-relaxed">
+                            Earning her Doctorate while mastering the intricacies of advanced restorative techniques and patient-centered clinical care.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Functional Art Philosophy -->
+<section class="w-full relative py-section-gap-mobile md:py-section-gap-desktop overflow-hidden">
+<!-- Background Image -->
+<div class="absolute inset-0 z-0">
+<img alt="Modern dental clinic hallway" class="w-full h-full object-cover opacity-20" src="https://lh3.googleusercontent.com/aida/ADBb0ug6Y3ELgqeybMJVzKT6CP75dUhZf7s5Sf0_k27iyXuK5d8kd1dRHAgPtJ9vMWBQFh-fmXhLucRZLLnzGM7dq5GZvIPq1TbMgFWOF0dVwOXebD9QsU1QZhTAUml5M9GvbHtzvQjuxq_TBzo_lH2uN0fPiGGyRdxnByNT7uKUrKxlDYNTy3LMz2LrBxg8AhBUs2yn_XyAsoq6rbEn3fl931h0yqqFPmYDesBWi_6WZ81RIBXf1s_TDh_Awbuh"/>
+<div class="absolute inset-0 bg-background/80 backdrop-blur-sm"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-7 space-y-6">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">The Philosophy</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary text-balance">
+                        Dentistry as Functional Art
+                    </h2>
+<div class="w-12 h-1 bg-secondary rounded-full"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                        For Dr. Yaella, dentistry is not merely a clinical procedure; it is a profound act of restoration. She views the mouth as a canvas where function and aesthetics must harmonize perfectly. Rebuilding a smile requires the meticulous eye of an artist and the precise hand of a surgeon.
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        This philosophy of 'functional art' drives her passion. Every crown, every filling, and every complex reconstruction is crafted to not only look naturally beautiful but to withstand the immense forces of daily life, ensuring her patients enjoy enduring health and confidence.
+                    </p>
+</div>
+<div class="md:col-span-5 mt-12 md:mt-0">
+<div class="aspect-square rounded-full overflow-hidden border-4 border-surface-container-lowest shadow-xl relative">
+<img alt="Luxurious dental reception area" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uhS-t1sLgMZJE8_oaO5ywjaw1Z4-vjhkCH6Zp4Cpj_uwU2Nk3rDQH8xx61oMuaAef3mWJb8eCzVNB4rC2loAXFVBQ542UbK6qugIRfvhYHaSEQ2z1Q8qKmbS4VWh6mmpKjZH2jUiDRmx_YIUoFn2rEVEjGUikZTeNUAmxW8WO7zXO6DfCiy0YoY3_ynJA2KVJpCVIP7J4n39W-Qse88SpIbIQQ9EAFwzxTZNBLE7cNbFrRQfDdGBVHoRMg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Life Beyond the Clinic -->
+<section class="w-full bg-surface-container-lowest py-section-gap-mobile md:py-section-gap-desktop">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32 items-center">
+<div class="order-2 lg:order-1 grid grid-cols-2 gap-4">
+<div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center items-center text-center space-y-4">
+<span class="material-symbols-outlined text-4xl text-secondary">family_restroom</span>
+<h4 class="font-label-md text-label-md text-primary">Family First</h4>
+<p class="font-caption text-caption text-on-surface-variant">Navigating life with her high school sweetheart and raising three energetic sons.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center items-center text-center space-y-4 mt-8">
+<span class="material-symbols-outlined text-4xl text-secondary">menu_book</span>
+<h4 class="font-label-md text-label-md text-primary">Avid Reader</h4>
+<p class="font-caption text-caption text-on-surface-variant">Finding quiet moments in compelling literature.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center items-center text-center space-y-4 -mt-8">
+<span class="material-symbols-outlined text-4xl text-secondary">directions_run</span>
+<h4 class="font-label-md text-label-md text-primary">Active Lifestyle</h4>
+<p class="font-caption text-caption text-on-surface-variant">Clearing her mind and maintaining stamina through regular jogging.</p>
+</div>
+<div class="bg-surface-container-low p-8 rounded-xl flex flex-col justify-center items-center text-center space-y-4">
+<span class="material-symbols-outlined text-4xl text-secondary">location_on</span>
+<h4 class="font-label-md text-label-md text-primary">Wilmington Roots</h4>
+<p class="font-caption text-caption text-on-surface-variant">Deeply invested in the local community she calls home.</p>
+</div>
+</div>
+<div class="order-1 lg:order-2 space-y-6">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Beyond the Clinic</span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-primary">
+                            Life in Wilmington
+                        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                            While her professional life is defined by precision and clinical focus, Dr. Yaella's personal life is a vibrant tapestry woven with family, community, and personal passions. She has built her life in Wilmington alongside her high school sweetheart, creating a nurturing environment for their three sons.
+                        </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                            When she steps away from the dental chair, you can often find her lost in a good book or logging miles on a jog—activities that provide balance and fuel her energetic approach to both life and patient care.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="w-full bg-primary py-section-gap-mobile md:py-section-gap-desktop relative overflow-hidden">
+<!-- Decorative elements -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary-container rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-secondary-fixed/10 rounded-full blur-2xl opacity-50 translate-y-1/2 -translate-x-1/2 pointer-events-none"></div>
+<div class="max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop text-center relative z-10 flex flex-col items-center space-y-8">
+<h2 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-on-primary">
+                    Experience Excellence
+                </h2>
+<p class="font-body-lg text-body-lg text-inverse-primary max-w-2xl leading-relaxed">
+                    Discover the difference that precision, artistry, and genuine compassion can make in your oral health journey. Dr. Yaella is currently welcoming new patients.
+                </p>
+<button class="mt-8 bg-surface-container-lowest text-primary px-10 py-5 rounded-DEFAULT font-label-md text-label-md tracking-wide hover:bg-surface-container-low transition-colors duration-300 shadow-lg">
+                    Book a Consultation
+                </button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="full-width bg-surface-container-low dark:bg-surface-container-lowest border-t border-outline-variant/30 ease-in-out transition-opacity duration-200">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter w-full px-margin-mobile md:px-margin-desktop py-section-gap-mobile md:py-section-gap-desktop max-w-container-max mx-auto">
+<div class="md:col-span-1">
+<a class="font-headline-md text-headline-md text-primary dark:text-primary-fixed mb-4 block" href="/">
+                    Wahl Family Dentistry
+                </a>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">© 2024 Wahl Family Dentistry. Excellence in Boutique Dental Care.</p>
+</div>
+<div class="font-body-md text-body-md">
+<ul class="space-y-3">
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Contact Us</a></li>
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Emergency Services</a></li>
+<li><a class="text-on-surface-variant dark:text-on-surface-variant hover:text-secondary dark:hover:text-secondary-fixed transition-colors" href="#">Patient Portal</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>
